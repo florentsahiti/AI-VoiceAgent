@@ -1,0 +1,22 @@
+# Environment / API secrets — never commit real values.
+# If .env was ever pushed, rotate every key in your provider dashboards.
+.env
+.env.*
+*.env
+.envrc
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+**/venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/

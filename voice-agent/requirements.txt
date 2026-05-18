@@ -1,0 +1,8 @@
+# livekit-agents 0.12+ dropped Agent/AgentSession from livekit.agents; use 1.x with your current agent.py.
+livekit-agents~=1.5.9
+livekit-plugins-groq~=1.5.9
+livekit-plugins-deepgram~=1.5.9
+livekit-plugins-cartesia~=1.5.9
+livekit-plugins-silero~=1.5.9
+python-dotenv
+av>=14.0.0
